@@ -1,0 +1,109 @@
+*{
+	padding:0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'verdana';
+	background: #292929;
+
+	background-image: url(../imagenes/maldivas.jpg);
+}
+
+.menu{
+	width: 900px;
+	margin: 0 auto;
+}
+
+header {
+	background: #FFFFFF;
+	width: 100%;
+	clear: both;
+	content:'';
+	display: table;
+}
+
+img{
+	width: 120px;
+	height: 100px;
+	float: left;
+	padding: 8px;
+}
+
+
+
+nav{
+	float: right;
+}
+
+nav ul li{
+	list-style: none;
+	margin-left: 75px;
+	padding: 25px 0;
+	float: left;
+	position: relative;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #0052C8;
+	font-weight: bold;
+}
+
+
+
+nav ul li a::before{
+	display: block;
+	content: '';
+	width: 0%;
+	background: #68A0F1;
+	height: 5px;
+	top: 0;
+	position: absolute;
+	transition: width 1.5s;
+}
+
+nav ul li a:hover::before{
+	width: 100%;
+}
+
+
+
+#caja1{
+	position: relative;
+	margin-top: 160px;
+	margin-left: 200px;
+	width: 500px;
+	height:100px;
+	background: #0000;
+}
+
+#publi1{
+
+	width: 300px;
+	height:300px;
+}
+
+#caja2{
+	position: relative;
+	margin-top: -100px;
+	margin-left: 800px;
+	width: 500px;
+	height:100px;
+	background: #0000;
+}
+
+#publi2{
+
+	width: 300px;
+	height:300px;
+
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    margin-right: 50px;
+
+}
