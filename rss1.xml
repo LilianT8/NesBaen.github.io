@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding= "utf-8"?>
+<rss version ="2.0">
+
+	<channel>
+
+<title>Mi canal de RSS</title>
+<link>https://liliant8.github.io/NesBaen.github.io/</link>
+<description>Noticias de actualidad</description>
+
+<item>
+	<title>Noticias de actualidad</title>
+		<link>https://www.elcorteingles.es/</link>
+			<description>Noticias sobre el Corte Inglés</description>
+</item>
+
+<item>
+	<title>Noticias de actualidad</title>
+		<link>https://www.parquewarner.com/</link>
+			<description>Noticias sobre Parque Warner</description>
+</item>
+
+
+	</channel>
+</rss>	
